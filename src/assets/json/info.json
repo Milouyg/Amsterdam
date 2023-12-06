@@ -1,0 +1,12 @@
+{
+    "nav":{
+        "organisation": "Organisatie",
+        "projects": "Projecten",
+        "work-at": "Werken-bij",
+        "img":{
+            "src": "https://via.placeholder.com/100x50",
+            "alt": "logo van Amsterdam"
+        }
+    }
+}
+

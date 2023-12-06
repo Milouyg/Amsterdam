@@ -1,0 +1,58 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100vw;
+    padding: 0rem 2rem;
+
+    .navigation {
+        display: flex;
+        gap: 2rem;
+
+        .nav-item {
+            list-style: none;
+
+            .link{
+                text-decoration: none;
+            }
+        }
+    }
+
+    .icon-bar{
+        display: none;
+    }
+
+    .icon-x{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 31.25rem ){ // 500px
+
+    .header{
+        position: relative;
+
+        .navigation{
+            width: 100%;
+            position: absolute;
+            top: 100%;
+            left: 0%;
+            text-align: center;
+            flex-direction: column;
+            padding: 1rem 0rem;
+
+            &.hidden{
+                display: none;
+            }
+        }
+
+        .icon-bar{
+            display: flex;
+            font-size: 3rem;
+        }
+
+        .icon-x{
+            font-size: 3rem;
+        }
+    }
+}
