@@ -11,6 +11,6 @@
             <a href="" class="link"> {{ nav['work-at'] }} </a>
         </li>
     </ul>
-    <i #bar class="fa-solid fa-bars icon-bar" (click)="toggleMenu(navigation)"></i>
-    <i #x class="fa-solid fa-x icon-x"></i>
+    <i #bar class="fa-solid fa-bars icon-bar" (click)="openMenu(navigation, bar, x)"></i>
+    <i #x class="fa-solid fa-x icon-x" (click)="closeMenu(navigation, bar, x)"></i>
 </header>

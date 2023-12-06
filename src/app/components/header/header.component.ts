@@ -13,11 +13,16 @@ export class HeaderComponent {
 
     }
 
-    toggleMenu(navigation : HTMLElement){
-        navigation.classList.toggle("hidden");
+    openMenu(navigation : HTMLElement, bar : HTMLElement, x : HTMLElement){
+        navigation.style.display = 'flex';
+        bar.style.display = 'none';
+        x.style.display = 'flex';
+
     }
 
-    // close(x : HTMLElement){
-    //     console.log(x)
-    // }
+    closeMenu(navigation : HTMLElement, bar : HTMLElement, x : HTMLElement){
+        navigation.style.display = 'none';
+        bar.style.display = 'flex';
+        x.style.display = 'none';
+    }
 }
