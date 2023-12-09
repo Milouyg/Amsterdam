@@ -1,0 +1,25 @@
+<section class="organisation">
+    <figure class="img-container">
+        <img class="img" src="https://placehold.co/200x200" [alt]="">
+    </figure>
+    <div class="content-container">
+        <div class="title-container">
+            <h1 class="title">{{ organisation['title'] }}</h1>
+        </div>
+        <div class="text-container">
+            <article class="text">
+                <h2 class="subtitle"> {{ organisation['property']['title'] }} </h2>
+                <div class="paragraph-container">
+                    <p class="paragraph">  {{ organisation['property']['paragraph-top'] }} </p>
+                    <p class="paragraph">  {{ organisation['property']['paragraph-middle'] }} </p>
+                    <p class="paragraph">  {{ organisation['property']['paragraph-bottom'] }} </p>
+                </div>
+            </article>
+            <figure class="line">
+                <i class="fa-solid fa-xmark x-icon"></i>
+                <i class="fa-solid fa-xmark x-icon"></i>
+                <i class="fa-solid fa-xmark x-icon"></i>
+            </figure>
+        </div>
+    </div>
+</section>

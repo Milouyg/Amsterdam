@@ -1,0 +1,112 @@
+@use "../../../../variables.scss";
+
+.organisation {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+
+    .img-container {
+        display: flex;
+        flex-direction: column;
+        flex: 1 1 0;
+        height: 50rem;
+
+        .img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            border: .2rem solid red;
+        }
+    }
+
+    .content-container {
+        display: flex;
+        flex-direction: column;
+        flex: 3 1 0;
+        justify-content: flex-end;
+
+        .title-container {
+            width: 100%;
+            border-top: .2rem solid red;
+            border-right: .2rem solid red;
+
+            .title {
+                width: 100%;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                margin-bottom: 2rem;
+            }
+        }
+        .text-container {
+            display: flex;
+            justify-content: flex-end;
+            gap: variables.$gapBetweenLine;
+
+            .text {
+                text-align: right;
+                display: flex;
+                flex-direction: column;
+                padding-left: 2rem;
+
+                .paragraph-container{
+                    display: flex;
+                    flex-direction: column;
+                    gap: 2rem;
+                }
+            }
+
+            .line {
+                flex-shrink: 0;
+                background: red;
+                width: 3rem;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                padding-top: 1.5rem;
+
+                .x-icon{
+                    color: white;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 81.25rem){ // 1300 px
+    .organisation {
+        .img-container {
+            flex: 1.5 1 0;
+        }
+        .content-container {
+            .title-container {
+
+            }
+            .text-container {
+                .text {
+                    .subtitle{
+                        font-size: variables.$m1300subtitle;
+                    }
+
+                    .paragraph-container{
+                        font-size: variables.$m1300paragraph;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 62.5rem){ // 1000px
+    .organisation {
+        flex-direction: column-reverse;
+
+        .img-container{
+            .img{
+                margin-top: 2rem;
+            }
+        }
+    }
+}
+
+
