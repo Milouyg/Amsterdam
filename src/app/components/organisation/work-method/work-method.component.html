@@ -1,0 +1,31 @@
+<section class="work-method">
+    <div class="content-container">
+        <header class="header-title">
+            <h1 class="title"> {{ workMethod['title'] }} </h1>
+        </header>
+        <article class="article">
+            <figure class="line">
+                <i class="fa-solid fa-xmark x-icon"></i>
+                <i class="fa-solid fa-xmark x-icon"></i>
+                <i class="fa-solid fa-xmark x-icon"></i>
+            </figure>
+            <div class="text-container">
+                <header class="header">
+                    <h2 class="subtitle"> {{ workMethod['subtitle'] }} </h2>
+                </header>
+                <p class="paragraph"> {{ workMethod['paragraph-top'] }} </p>
+                <p class="paragraph"> {{ workMethod['paragraph-middle-top'] }} </p>
+                <p class="paragraph"> {{ workMethod['paragraph-middle-bottom'] }} </p>
+                <ul class="bullet-list">
+                    <ng-container *ngFor="let bulletPoint of workMethod['bullet-point-list']">
+                        <li class="bullet-point"> {{ bulletPoint }} </li>
+                    </ng-container>
+                </ul>
+                <p class="paragraph"> {{ workMethod['paragraph-bottom'] }} </p>
+            </div>
+        </article>
+    </div>
+    <figure class="img-container">
+        <img class="img" [src]="workMethod['img']['src']" [alt]="workMethod['img']['src']">
+    </figure>
+</section>
