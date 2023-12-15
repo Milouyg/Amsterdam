@@ -3,6 +3,9 @@
         "organisation": "Organisatie",
         "projects": "Projecten",
         "work-at": "Werken-bij",
+        "people": "Mensen",
+        "expertise": "Expertise",
+        "contact": "Contact",
         "img": {
             "src": "https://via.placeholder.com/100x50",
             "alt": "logo van Amsterdam"

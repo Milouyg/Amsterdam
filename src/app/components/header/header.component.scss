@@ -3,7 +3,7 @@
     justify-content: space-between;
     align-items: center;
     width: 100vw;
-    padding: 0rem 2rem;
+    padding: 0rem 4rem;
 
     .navigation {
         display: flex;
@@ -27,7 +27,7 @@
     }
 }
 
-@media screen and (max-width: 31.25rem ){ // 500px
+@media screen and (max-width: 50rem ){ // 800px
 
     .header{
         position: relative;
