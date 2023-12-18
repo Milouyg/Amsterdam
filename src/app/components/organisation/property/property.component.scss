@@ -53,6 +53,13 @@
                     display: flex;
                     flex-direction: column;
                     gap: 2rem;
+
+                    .paragraph{
+
+                        &:nth-child(3){
+                            padding-bottom: 2rem;
+                        }
+                    }
                 }
             }
 

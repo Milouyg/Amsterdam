@@ -2,24 +2,24 @@
 
 .work-method{
     width: 100%;
-    background: blue;
     display: flex;
+    border-right: .2rem solid red;
 
     .img-container{
         flex: 1 1 0;
-        background: green;
         height: 100%;
 
         .img{
             width: 100%;
             object-fit: cover;
-            border: .2rem solid red;
+            border-top: .2rem solid red;
+            border-left: .2rem solid red;
+            border-bottom: .2rem solid red;
         }
     }
 
     .content-container{
         flex: 2 1 0;
-        background: orange;
         display: flex;
         flex-direction: column;
         border-left: .2rem solid red;
@@ -37,7 +37,6 @@
             display: flex;
             gap: 2rem;
             .text-container{
-                background: green;
                 width: 100%;
                 height: 100%;
                 display: flex;
