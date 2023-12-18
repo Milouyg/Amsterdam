@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-
+import info from "../../../../assets/json/info.json";
 
 @Component({
   selector: 'app-bmv-teams',
@@ -7,9 +7,10 @@ import { Component } from '@angular/core';
   styleUrls: ['./bmv-teams.component.scss']
 })
 export class BmvTeamsComponent {
+    bmvTeams = info['organisation']['bmv-teams'];
 
     constructor(){
-
+        console.log(this.bmvTeams)
     }
 
 
