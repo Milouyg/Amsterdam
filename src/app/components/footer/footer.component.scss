@@ -1,0 +1,32 @@
+.contact {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 2rem 10rem;
+    width: 100%;
+    background-color: #2e2e2e;
+    color: white;
+
+    .column {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+
+        * {
+            margin-bottom: 2rem;
+            color: white;
+        }
+
+        .text {
+            width: 50%;
+        }
+    }
+}
+
+@media screen and (max-width: 81.25rem){ // 1300 px
+    .contact{
+        flex-direction: column;
+        gap: 2rem;
+    }
+}

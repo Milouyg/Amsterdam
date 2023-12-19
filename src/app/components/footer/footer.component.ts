@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import footer from "../../../assets/json/info.json";
+import info from "../../../assets/json/info.json";
 
 @Component({
   selector: 'app-footer',
@@ -7,7 +7,8 @@ import footer from "../../../assets/json/info.json";
   styleUrls: ['./footer.component.scss']
 })
 export class FooterComponent {
-
+    footer = info['contact'];
+    
     constructor(){
 
     }

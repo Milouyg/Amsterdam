@@ -73,5 +73,57 @@
                 "alt": ""
             }
         }
+    },
+    "contact":{
+        "mail":{
+            "title": "Mail",
+            "text": "PMB is bereikbaar op werkdagen tussen 8.30 - 17.30 uur",
+            "contact": "Contact",
+            "href": "/"
+        },
+        "pmb":{
+            "title": "Volg het ProjectManagement Bureau",
+            "twitter": "Twitter",
+            "linkedIn": "LinkedIn",
+            "links":{
+                "twitter": "https://twitter.com/PMB020/",
+                "linkedIn": "http://www.linkedin.com/company/projectmanagement-bureau/"
+            }
+        },
+        "about-us":{
+            "title": "Over deze site",
+            "colofon": "Colofon",
+            "pec": "Proclaimer en Copyright",
+            "sitemap": "Sitemap",
+            "links":{
+                "colofon": "https://www.amsterdam.nl/pmb/algemene-onderdelen/colofon/",
+                "pec": "https://www.amsterdam.nl/pmb/algemene-onderdelen/proclaimer-copyright/",
+                "sitemap": "https://www.amsterdam.nl/pmb/algemene-onderdelen/sitemap/"
+            }
+        },
+        "amsterdam":{
+            "title": "Amsterdam.nl",
+            "text": "Nieuws en publieksinformatie van de gemeente Amsterdam vindt u op amsterdam.nl",
+            "link": "Naar Amsterdam.nl",
+            "href": "https://www.amsterdam.nl/"
+        }
+    },
+    "not-found-page":{
+        "title": "404: pagina niet gevonden",
+        "subtitle": "Helaas. De pagina waar u naar op zoek was bestaat niet (meer)",
+        "paragraph-first": "Gebruik de navigatie bovenaan deze pagina of probeer onderstaande opties:",
+        "list-item1": "Alle onderwerpen: Thematisch overzicht van alle onderwerpen op deze site.",
+        "list-item2": "Zoeken: Zoek binnen deze site.",
+        "link-home": "Homepage: ",
+        "list-item3": "Ga naar de homepage van deze site.",
+        "link-contact": "Contact: ",
+        "list-item4": "Informatie over bellen of mailen met de gemeente Amsterdam.",
+        "paragraph-second": "Wellicht was u op zoek naar deze pagina: ",
+        "link-bmv": "Bouwmanagement en Maatschappelijk Vastgoed;",
+        "links":{
+            "amsterdam": "https://www.amsterdam.nl",
+            "home-page": "/",
+            "contact": "/"
+        }
     }
 }

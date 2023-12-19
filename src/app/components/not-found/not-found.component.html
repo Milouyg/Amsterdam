@@ -1,0 +1,14 @@
+<section class="not-found">
+    <header class="title-container">
+        <h1 class="title"> {{ notFound['title'] }}</h1>
+    </header>
+    <h2 class="subtitle"> {{ notFound['subtitle'] }}</h2>
+    <p class="paragraph first"> {{ notFound['paragraph-first'] }}</p>
+    <ul class="list">
+        <li> {{ notFound['list-item1'] }}</li>
+        <li> {{ notFound['list-item2'] }}</li>
+        <li><a [href]="notFound['links']['amsterdam']"></a> {{ notFound['list-item3'] }} </li>
+        <li><a [href]="notFound['links']['home-page']"></a> {{ notFound['list-item4'] }} </li>
+    </ul>
+    <p class="paragraph second"> {{ notFound['paragraph-second'] }} <a [href]="notFound['links']['contact']"></a></p>
+</section>

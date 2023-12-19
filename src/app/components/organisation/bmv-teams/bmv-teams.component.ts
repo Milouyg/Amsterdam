@@ -10,7 +10,6 @@ export class BmvTeamsComponent {
     bmvTeams = info['organisation']['bmv-teams'];
 
     constructor(){
-        console.log(this.bmvTeams)
     }
 
 
