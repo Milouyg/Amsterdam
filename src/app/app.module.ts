@@ -12,6 +12,7 @@ import { LandingPageComponent } from './components/landing-page/landing-page.com
 import { IntroComponent } from './components/intro/intro.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { NotFoundComponent } from './components/not-found/not-found.component';
+import { ProjectsComponent } from './components/projects/projects.component';
 
 @NgModule({
   declarations: [
@@ -23,6 +24,7 @@ import { NotFoundComponent } from './components/not-found/not-found.component';
     PropertyComponent,
     WorkMethodComponent,
     BmvTeamsComponent,
+    ProjectsComponent,
     FooterComponent,
     NotFoundComponent
   ],

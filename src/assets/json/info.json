@@ -74,6 +74,19 @@
             }
         }
     },
+    "projects":{
+        "title": "Projecten",
+        "project-titles":[
+            "Nieuwbouw Spinoza20first",
+            "Nieuwbouw AICS",
+            "Renovatie Bostheater",
+            "Renovatie de Wereldburger",
+            "Kwartiermaker Nationaal Slavernijmuseum",
+            "Renovatie Amsterdam Museum",
+            "Sportpark Goed Genoeg & Clubgebouw AFC",
+            "Verbouwing en Nieuwbouw Werven en Overslagpunten"
+        ]
+    },
     "contact":{
         "mail":{
             "title": "Mail",

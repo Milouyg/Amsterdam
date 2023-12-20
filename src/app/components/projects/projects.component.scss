@@ -1,0 +1,126 @@
+@use "../../../variables.scss";
+
+.projects{
+    width: 100%;
+    flex-direction: column;
+    padding: 0rem 0rem 5rem 0rem;
+
+    .title{
+        text-align: center;
+        margin-bottom: 2rem;
+    }
+
+    .project-list {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row;
+        padding: 0rem 2rem ;
+        gap: 1rem;
+        flex-wrap: wrap;
+
+        .project-container{
+            display: flex;
+            width: 24rem;
+            height: 30rem;
+            list-style: none;
+
+            &:hover{
+                cursor: pointer;
+            }
+
+            &.odd-alignment{
+                align-items: flex-end;
+            }
+
+            .project-card{
+                width: 100%;
+                height: 22rem;
+                background: white;
+                box-shadow: -1rem 1rem .5rem .1rem rgba(0,0,0, .3);
+                display: flex;
+                border-radius: 1rem;
+                position: relative;
+
+                .img-container{
+                    width: 100%;
+                    height: 22rem;
+
+                    .img{
+                        width: 100%;
+                        height: 78%;
+                        object-fit: cover;
+                        border-top-right-radius: 1rem;
+                        border-top-left-radius: 1rem;
+                    }
+                }
+
+                .text-container{
+                    width: 100%;
+                    height: 5rem;
+                    background: red;
+                    position: absolute;
+                    bottom: 0%;
+                    border-bottom-left-radius: 1rem;
+                    border-bottom-right-radius: 1rem;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+
+                    .subtitle{
+                        color: white;
+                        font-size: 1.5rem;
+                        text-align: center;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen AND (max-width: 65.625rem) { // 1050px
+
+    .projects{
+
+        .project-list{
+            justify-content: space-evenly;
+            gap: 4rem;
+        }
+    }
+}
+
+@media screen AND (max-width: 52.5rem) { // 840px
+
+    .projects{
+
+        .project-list{
+            justify-content: space-evenly;
+            gap: 4rem;
+
+            .project-container{
+                height: 25rem;
+            }
+        }
+    }
+}
+
+@media screen AND (max-width: 35rem) { // 840px
+
+    .projects{
+
+        .project-list{
+            justify-content: space-evenly;
+            gap: 2rem;
+
+            .project-container{
+                height: 25rem;
+
+                &.odd-alignment{
+                    align-items: unset;
+                }
+            }
+
+
+        }
+    }
+}

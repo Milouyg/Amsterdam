@@ -8,7 +8,7 @@
     .img-container{
         display: flex;
         flex-direction: column;
-        flex: 1 1 0;
+        flex: 1 0 0;
         height: 50rem;
 
         .img{
@@ -16,6 +16,7 @@
             height: 100%;
             object-fit: cover;
             border: .2rem solid red;
+
         }
     }
 
@@ -84,9 +85,10 @@
     }
 }
 
-@media screen and (max-width: 62.5rem){ // 1000px
+@media screen and (max-width: 65.625rem){ // 1050px
     .bmv-teams {
         flex-direction: column-reverse;
+        margin-bottom: 5rem;
 
         .img-container{
             .img{
