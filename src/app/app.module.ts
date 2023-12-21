@@ -13,6 +13,7 @@ import { IntroComponent } from './components/intro/intro.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { NotFoundComponent } from './components/not-found/not-found.component';
 import { ProjectsComponent } from './components/projects/projects.component';
+import { ProjectComponent } from './components/projects/project/project.component';
 
 @NgModule({
   declarations: [
@@ -25,6 +26,7 @@ import { ProjectsComponent } from './components/projects/projects.component';
     WorkMethodComponent,
     BmvTeamsComponent,
     ProjectsComponent,
+    ProjectComponent,
     FooterComponent,
     NotFoundComponent
   ],
