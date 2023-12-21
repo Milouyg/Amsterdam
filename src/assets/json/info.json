@@ -87,6 +87,35 @@
             "Verbouwing en Nieuwbouw Werven en Overslagpunten"
         ]
     },
+    "work-at":{
+        "title": "Werken bij",
+        "top-content":{
+            "subtitle": "Werken of stage lopen bij BMV",
+            "paragraph-top": "BMV is altijd op zoek naar nieuwe collega’s, om aan de slag te gaan als junior-, medior- of senior-bouwmanager of projectmanager maatschappelijk vastgoed",
+            "paragraph-bottom": "Het team zoekt mensen met ervaring en een opleiding in het wetenschappelijk of hoger beroepsonderwijs, bijvoorbeeld op het gebied van bouwkunde, architectuur en vastgoedmanagement.",
+            "img": {
+                "src": "https://via.placeholder.com/600x300",
+                "alt": ""
+            }
+        },
+        "middle-content":{
+            "paragraph-top": "Maar ook aan mensen met een ogenschijnlijk minder voor de hand liggende achtergrond, bijvoorbeeld rechten, sociologie of psychologie, heeft BMV behoefte.",
+            "paragraph-bottom": "En in alle gevallen zijn een brede blik, flexibiliteit, goede omgevingsgevoeligheid en affiniteit met maatschappelijk vastgoed en het sociaal domein vereisten voor het werken bij BMV.",
+            "img": {
+                "src": "https://via.placeholder.com/600x300",
+                "alt": ""
+            }
+        },
+        "bottom-content":{
+            "paragraph-top": "Wie nog studeert, is van harte welkom om stage te lopen bij BMV. Werk mee in mooie projecten, krijg inzicht in het project- en bouwmanagement en leer de gemeente Amsterdam kennen.",
+            "paragraph-middle": "Stuur voor meer informatie over werken of stage lopen bij BMV een e-mail (met daarin in elk geval persoonlijke gegevens, een telefoonnummer en een curriculum vitae) naar capaciteit.BMV@amsterdam.nl.",
+            "paragraph-bottom": "Kijk voor openstaande vacatures op https://werkenbij.amsterdam.nl.",
+            "img": {
+                "src": "https://via.placeholder.com/600x300",
+                "alt": ""
+            }
+        }
+    },
     "contact":{
         "mail":{
             "title": "Mail",

@@ -1,0 +1,44 @@
+<section class="work-at">
+    <h1 class="title"> {{ workAt['title'] }} </h1>
+    <div class="top-content">
+            <div class="text-container">
+                <h2 class="subtitle">
+                    {{ workAt['top-content']['subtitle'] }}
+                </h2>
+                <p class="paragraph">
+                    {{ workAt['top-content']['paragraph-top'] }}
+                </p>
+                <p class="paragraph">
+                    {{ workAt['top-content']['paragraph-bottom'] }}
+                </p>
+            </div>
+            <figure class="img-container">
+                <img class="img" [src]="workAt['top-content']['img']['src']" [alt]="workAt['top-content']['img']['alt']">
+            </figure>
+        </div>
+    <div class="middle-content">
+        <figure class="img-container">
+            <img class="img" [src]="workAt['middle-content']['img']['src']" [alt]="workAt['top-content']['img']['alt']">
+        </figure>
+        <div class="text-container">
+            <p class="paragraph"> {{ workAt['middle-content']['paragraph-top'] }} </p>
+            <p class="paragraph"> {{ workAt['middle-content']['paragraph-bottom'] }} </p>
+        </div>
+    </div>
+    <div class="bottom-content">
+        <div class="text-container">
+            <p class="paragraph">
+                {{ workAt['bottom-content']['paragraph-top'] }}
+            </p>
+            <p class="paragraph">
+                {{ workAt['bottom-content']['paragraph-middle'] }}
+            </p>
+            <p class="paragraph">
+                {{ workAt['bottom-content']['paragraph-bottom'] }}
+            </p>
+        </div>
+        <figure class="img-container">
+            <img class="img" [src]="workAt['bottom-content']['img']['src']" [alt]="workAt['top-content']['img']['alt']">
+        </figure>
+    </div>
+</section>

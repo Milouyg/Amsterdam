@@ -1,0 +1,82 @@
+@use "../../../variables.scss";
+
+.work-at{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 2rem 0rem;
+    background: red;
+
+    .title{
+        text-align: center;
+        color: white;
+    }
+
+    .top-content, .middle-content, .bottom-content{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+
+        .img-container{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex: 1 1 0;
+            height: 32rem;
+            background: red;
+
+            .img{
+                width: 80%;
+                height: 80%;
+                object-fit: cover;
+            }
+        }
+
+        .text-container{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            flex: 1 1 0;
+            padding: 1rem 0rem;
+
+            .subtitle{
+                font-size: 2.5rem;
+                color: white;
+            }
+
+            .paragraph{
+                width: 80%;
+                margin-bottom: 1rem;
+                color: white;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 65.625rem) { // 1050px
+    
+    .work-at{
+
+        .top-content, .middle-content, .bottom-content{
+            display: unset;
+            flex-wrap: wrap;
+
+            .text-container{
+                
+            }
+        }
+
+        .study{
+            display: flex;
+            flex-direction: column-reverse;
+
+            .img-container{
+
+                .img{
+
+                }
+            }
+        }
+    }
+}
