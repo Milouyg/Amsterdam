@@ -5,6 +5,10 @@
     width: 100vw;
     padding: 0rem 4rem;
 
+    .logo {
+        width: 5rem;
+    }
+
     .navigation {
         display: flex;
         gap: 2rem;
@@ -12,27 +16,28 @@
         .nav-item {
             list-style: none;
 
-            .link{
+            .link {
                 text-decoration: none;
             }
         }
     }
 
-    .icon-bar{
+    .icon-bar {
         display: none;
     }
 
-    .icon-x{
+    .icon-x {
         display: none;
     }
 }
 
-@media screen and (max-width: 50rem ){ // 800px
+@media screen and (max-width: 50rem) {
+    // 800px
 
-    .header{
+    .header {
         position: relative;
 
-        .navigation{
+        .navigation {
             width: 100%;
             position: absolute;
             top: 100%;
@@ -41,17 +46,17 @@
             flex-direction: column;
             padding: 1rem 0rem;
 
-            &.hidden{
+            &.hidden {
                 display: none;
             }
         }
 
-        .icon-bar{
+        .icon-bar {
             display: flex;
             font-size: 3rem;
         }
 
-        .icon-x{
+        .icon-x {
             font-size: 3rem;
         }
     }

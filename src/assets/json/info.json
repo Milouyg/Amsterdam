@@ -7,7 +7,7 @@
         "expertise": "Expertise",
         "contact": "Contact",
         "img": {
-            "src": "https://via.placeholder.com/100x50",
+            "src": "./../../assets/images/logo.png",
             "alt": "logo van Amsterdam"
         }
     },
@@ -16,7 +16,7 @@
         "bulletpoint2": "Lees meer over onze expertise",
         "bulletpoint3": "Opdrachten en projecten",
         "img": {
-            "src": "https://via.placeholder.com/1920x1080",
+            "src": "./../../assets/images/hero-img.jpg",
             "alt": "hero-img"
         }
     },

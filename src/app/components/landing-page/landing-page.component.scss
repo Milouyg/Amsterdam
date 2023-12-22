@@ -14,24 +14,30 @@
         z-index: -1;
     }
 
+    
+
     .cta-list {
         display: flex;
         flex-direction: column;
-        height: 70%;
-        width: 90%;
+        position: absolute;
+        left: 8%;
+        padding: 5rem 2rem;
+        top: 20%;
         justify-content: center;
-        margin: 0 auto;
         gap: 1rem;
         font-weight: 600;
+        color: red;
+        z-index: 2;
+        background: rgba(0, 0, 0, 0.6);
+        border-radius: 1rem;
 
         .cta-item {
             text-align: left;
             list-style: circle;
             list-style-position: inside;
             padding: 0 3rem;
+            opacity: 0.8;
             font-size: 2.5rem;
         }
     }
 }
-
-
