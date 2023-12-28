@@ -15,11 +15,13 @@ import { NotFoundComponent } from './components/not-found/not-found.component';
 import { ProjectsComponent } from './components/projects/projects.component';
 import { ProjectComponent } from './components/projects/project/project.component';
 import { WorkAtComponent } from './components/work-at/work-at.component';
+import { HomeComponent } from './components/home/home.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
+    HomeComponent,
     LandingPageComponent,
     IntroComponent,
     OrganisationComponent,
