@@ -11,7 +11,8 @@ const routes: Routes = [
     component: HomeComponent
   },
   {
-    path: 'project',
+    path: 'project/:title',
+    component: ProjectComponent
   },
   {
     path: '**',
