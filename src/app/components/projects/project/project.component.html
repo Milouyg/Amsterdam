@@ -1,14 +1,12 @@
 <section class="project">
     <div class="content-container">
         <header class="header">
-            <h1 class="title">Nieuwbouw Spinoza20first</h1>
+            <h1 class="title"> {{ projectInfo['title'] }} </h1>
         </header>
-        <h2 class="subtitle">Spinoza20First: duurzame school en sporthal</h2>
-        <p class="paragraph">Waar ooit de parkeergarage van de voormalige Bijlmerbajes stond, zorgde een team van BMV voor de realisatie van nieuwbouw van de Spinoza20First-school en Sporthal Bajeskwartier, met daaraan gekoppeld een jongerencentrum.</p>
-        <p class="paragraph">Deze middelbare school biedt plek aan 1.000 tot 1.200 leerlingen.</p>
-        <p class="paragraph">De sporthal bestaat uit drie zalen. Deze worden op doordeweekse dagen overdag gebruikt door Spinoza20First en in de avonden en weekenden door verenigingen.</p>
-        <p class="paragraph">Bij de ontwikkeling van de school en de sporthal besteedde BMV veel aandacht aan duurzaamheid. Zo is het gebouw flexibel indeelbaar, heeft het een lichte constructie en is bij de bouw gebruik gemaakt van duurzame materialen. Verder is het gebouw aangesloten op de warmte/koude-opslaginstallatie (voor verwarming in de winter en verkoeling in de zomer) van het gebied Bajeskwartier.</p>
-        <p class="paragraph">Het dak van de school – met daarop het schoolplein – bevat veel groen, dat bijdraagt aan het vasthouden van regenwater. Op het dak van de sporthal bevinden zich hiernaast zonnepanelen.</p>
+        <h2 class="subtitle"> {{ projectInfo['sub-title'] }} </h2>
+        <ng-container *ngFor="let paragraph of paragraphs">
+            <p> {{ paragraph }}</p>
+        </ng-container>
         <a href="www.spinoza20first.nl" target="_blank">www.spinoza20first.nl</a>
         <p class="paragraph">Ontwerp: BDG Architecten</p>
     </div>

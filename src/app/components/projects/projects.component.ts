@@ -10,6 +10,6 @@ export class ProjectsComponent {
     projects = info['projects'];
 
     constructor(){
-
+    
     }
 }
