@@ -7,8 +7,8 @@
         <ng-container *ngFor="let paragraph of paragraphs">
             <p> {{ paragraph }}</p>
         </ng-container>
-        <a href="www.spinoza20first.nl" target="_blank">www.spinoza20first.nl</a>
-        <p class="paragraph">Ontwerp: BDG Architecten</p>
+        <a [href]="projectInfo['link']" target="_blank"> {{ projectInfo['link'] }} </a>
+        <p class="photographer"> {{ projectInfo['photographer'] }} </p>
     </div>
     <div class="carousel-container">
         <img class="carousel" src="https://via.placeholder.com/700x700" alt="temp should be changed with a carousel plugin"/>

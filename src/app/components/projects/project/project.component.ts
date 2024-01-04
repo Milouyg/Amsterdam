@@ -16,6 +16,7 @@ export class ProjectComponent{
 
     constructor( private route: ActivatedRoute ){
         this.findProject();
+
     }
 
     findProject(){
@@ -23,6 +24,7 @@ export class ProjectComponent{
             if(project['title'] === this.route.snapshot.paramMap.get('title')){
                 this.projectInfo = project;
                 this.paragraphs = project['paragraphs']
+                console.log(this.projectInfo)
             }
         });
     }
