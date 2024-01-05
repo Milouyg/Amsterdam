@@ -16,6 +16,7 @@ import { ProjectsComponent } from './components/projects/projects.component';
 import { ProjectComponent } from './components/projects/project/project.component';
 import { WorkAtComponent } from './components/work-at/work-at.component';
 import { HomeComponent } from './components/home/home.component';
+import { CarouselController, NgSimpleCarouselComponent, NgSimpleCarouselModule } from 'ng-simple-carousel';
 
 @NgModule({
   declarations: [
@@ -36,7 +37,8 @@ import { HomeComponent } from './components/home/home.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    NgSimpleCarouselModule
   ],
   providers: [],
   bootstrap: [AppComponent]

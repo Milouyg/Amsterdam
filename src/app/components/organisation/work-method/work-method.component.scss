@@ -86,5 +86,14 @@
 @media screen and (max-width: 65.625rem) { // 1050px
     .work-method{
         flex-direction: column;
+
+        .img-container{
+            border-left: .2rem solid red;
+            .img{
+                border-top: .2rem solid red;
+                border-left: unset;
+                border-bottom: .2rem solid red;
+            }
+        }
     }
 }

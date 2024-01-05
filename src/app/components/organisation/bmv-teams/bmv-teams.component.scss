@@ -16,7 +16,6 @@
             height: 100%;
             object-fit: cover;
             border: .2rem solid red;
-
         }
     }
 
@@ -59,10 +58,18 @@
 
                     .paragraph-group{
                         width: 100%;
-                        display: flex;
-                        justify-content: flex-end;
-                        gap: .5rem;
                         padding-bottom: 2rem;
+
+                        .paragraph{
+
+                            &.bottom{
+                                display: inline;
+                            }
+                        }
+
+                        .link{
+                            display: inline;
+                        }
                     }
                 }
             }
@@ -92,12 +99,12 @@
 
         .img-container{
             .img{
-                margin-top: 2rem;
+
             }
         }
 
         .content-container{
-
+            border-left: .2rem solid red;
             .text-container{
                 border-bottom: unset;
             }

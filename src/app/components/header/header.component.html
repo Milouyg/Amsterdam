@@ -1,23 +1,23 @@
 <header class="header">
-    <img class="logo" [src]="nav['img']['src']" [alt]="nav['img']['alt']">
+    <img routerLink="/" class="logo" [src]="nav['img']['src']" [alt]="nav['img']['alt']">
     <ul #navigation class="navigation hidden">
         <li class="nav-item">
-            <a href="" class="link"> {{ nav['organisation'] }} </a>
+            <a href="#organisation" class="link"> {{ nav['organisation'] }} </a>
         </li>
         <li class="nav-item">
-            <a href="" class="link"> {{ nav['people'] }} </a>
+            <a href="/" class="link"> {{ nav['people'] }} </a>
         </li>
         <li class="nav-item">
-            <a href="" class="link"> {{ nav['expertise'] }} </a>
+            <a href="/" class="link"> {{ nav['expertise'] }} </a>
         </li>
         <li class="nav-item">
-            <a href="" class="link"> {{ nav['projects'] }} </a>
+            <a href="#projects" class="link"> {{ nav['projects'] }} </a>
         </li>
         <li class="nav-item">
-            <a href="" class="link"> {{ nav['work-at'] }} </a>
+            <a href="#workAt" class="link"> {{ nav['work-at'] }} </a>
         </li>
         <li class="nav-item">
-            <a href="" class="link"> {{ nav['contact'] }} </a>
+            <a href="#contact" class="link"> {{ nav['contact'] }} </a>
         </li>
     </ul>
     <i #bar class="fa-solid fa-bars icon-bar" (click)="openMenu(navigation, bar, x)"></i>

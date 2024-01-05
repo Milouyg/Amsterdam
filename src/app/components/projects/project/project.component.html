@@ -4,14 +4,16 @@
             <h1 class="title"> {{ projectInfo['title'] }} </h1>
         </header>
         <h2 class="subtitle"> {{ projectInfo['sub-title'] }} </h2>
-        <ng-container *ngFor="let paragraph of paragraphs">
+        <ng-container *ngFor="let paragraph of projectInfo['paragraphs']">
             <p> {{ paragraph }}</p>
         </ng-container>
         <a [href]="projectInfo['link']" target="_blank"> {{ projectInfo['link'] }} </a>
         <p class="photographer"> {{ projectInfo['photographer'] }} </p>
     </div>
     <div class="carousel-container">
-        <img class="carousel" src="https://via.placeholder.com/700x700" alt="temp should be changed with a carousel plugin"/>
+        <ng-simple-carousel-with-button [images]="images" [controller]="controllerButton">
+        </ng-simple-carousel-with-button>
     </div>
+    
 </section>
 

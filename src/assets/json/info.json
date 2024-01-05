@@ -92,15 +92,18 @@
                 "design": "Ontwerp: BDG Architecten",
                 "imgs":[
                     {
-                        "src": "",
+                        "id": "1",
+                        "srcset": "",
                         "alt": ""
                     },
                     {
-                        "src": "",
+                        "id": "1",
+                        "srcset": "",
                         "alt": ""
                     },
                     {
-                        "src": "",
+                        "id": "1",
+                        "srcset": "",
                         "alt": ""
                     }
                 ]
@@ -121,15 +124,18 @@
                 "photographer": "Fotograaf: Stijn Poelstra",
                 "imgs":[
                     {
-                        "src": "",
+                        "id": "1",
+                        "srcset": "",
                         "alt": ""
                     },
                     {
-                        "src": "",
+                        "id": "1",
+                        "srcset": "",
                         "alt": ""
                     },
                     {
-                        "src": "",
+                        "id": "1",
+                        "srcset": "",
                         "alt": ""
                     }
                 ]
@@ -146,15 +152,18 @@
                 "design": "Ontwerp: Archivolt Architecten",
                 "imgs":[
                     {
-                        "src": "",
+                        "id": "1",
+                        "srcset": "",
                         "alt": ""
                     },
                     {
-                        "src": "",
+                        "id": "1",
+                        "srcset": "",
                         "alt": ""
                     },
                     {
-                        "src": "",
+                        "id": "1",
+                        "srcset": "",
                         "alt": ""
                     }
                 ]
@@ -174,15 +183,18 @@
                 "photographer": "Fotograaf: Stijn Poelstra",
                 "imgs":[
                     {
-                        "src": "",
+                        "id": "1",
+                        "srcset": "",
                         "alt": ""
                     },
                     {
-                        "src": "",
+                        "id": "1",
+                        "srcset": "",
                         "alt": ""
                     },
                     {
-                        "src": "",
+                        "id": "1",
+                        "srcset": "",
                         "alt": ""
                     }
                 ]
@@ -200,15 +212,18 @@
                 "design": "Ontwerp: Neutelings Riedijk Architecten",
                 "imgs":[
                     {
-                        "src": "",
+                        "id": "1",
+                        "srcset": "",
                         "alt": ""
                     },
                     {
-                        "src": "",
+                        "id": "1",
+                        "srcset": "",
                         "alt": ""
                     },
                     {
-                        "src": "",
+                        "id": "1",
+                        "srcset": "",
                         "alt": ""
                     }
                 ]
@@ -225,15 +240,18 @@
                 "design": "Ontwerp: Neutelings Riedijk Architecten",
                 "imgs":[
                     {
-                        "src": "",
+                        "id": "1",
+                        "srcset": "",
                         "alt": ""
                     },
                     {
-                        "src": "",
+                        "id": "1",
+                        "srcset": "",
                         "alt": ""
                     },
                     {
-                        "src": "",
+                        "id": "1",
+                        "srcset": "",
                         "alt": ""
                     }
                 ]
@@ -250,15 +268,18 @@
                 "photographer": "Fotograaf: Marcel Steinbach",
                 "imgs":[
                     {
-                        "src": "",
+                        "id": "1",
+                        "srcset": "",
                         "alt": ""
                     },
                     {
-                        "src": "",
+                        "id": "1",
+                        "srcset": "",
                         "alt": ""
                     },
                     {
-                        "src": "",
+                        "id": "1",
+                        "srcset": "",
                         "alt": ""
                     }
                 ]
@@ -277,15 +298,18 @@
                 "design": "",
                 "imgs":[
                     {
-                        "src": "",
+                        "id": "1",
+                        "srcset": "",
                         "alt": ""
                     },
                     {
-                        "src": "",
+                        "id": "1",
+                        "srcset": "",
                         "alt": ""
                     },
                     {
-                        "src": "",
+                        "id": "1",
+                        "srcset": "",
                         "alt": ""
                     }
                 ]

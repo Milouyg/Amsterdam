@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
 import info from "../../../../assets/json/info.json";
+import { CarouselController, CarouselImage } from 'ng-simple-carousel';
 
 @Component({
 
@@ -11,8 +12,13 @@ export class ProjectComponent{
 
     title?:string;
     projects = info['projects']['projects-content'];
-    paragraphs!:any;
     projectInfo!:any;
+
+    controllerButton = new CarouselController();
+    images: CarouselImage[] = [
+
+    ];
+
 
     constructor( private route: ActivatedRoute ){
         this.findProject();
@@ -23,9 +29,11 @@ export class ProjectComponent{
         this.projects.forEach(project => {
             if(project['title'] === this.route.snapshot.paramMap.get('title')){
                 this.projectInfo = project;
-                this.paragraphs = project['paragraphs']
-                console.log(this.projectInfo)
+                this.images = this.projectInfo['imgs'];
             }
         });
     }
+
+
+
 }
