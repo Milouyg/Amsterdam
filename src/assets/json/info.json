@@ -93,17 +93,12 @@
                 "imgs":[
                     {
                         "id": "1",
-                        "srcset": "",
+                        "srcset": "./assets/images/spino20first1.jpg",
                         "alt": ""
                     },
                     {
-                        "id": "1",
-                        "srcset": "",
-                        "alt": ""
-                    },
-                    {
-                        "id": "1",
-                        "srcset": "",
+                        "id": "2",
+                        "srcset": "./assets/images/spino20first2.jpg",
                         "alt": ""
                     }
                 ]
@@ -125,17 +120,22 @@
                 "imgs":[
                     {
                         "id": "1",
-                        "srcset": "",
+                        "srcset": "./assets/images/aics1.jfif",
                         "alt": ""
                     },
                     {
-                        "id": "1",
-                        "srcset": "",
+                        "id": "2",
+                        "srcset": "./assets/images/aics2.jfif",
                         "alt": ""
                     },
                     {
-                        "id": "1",
-                        "srcset": "",
+                        "id": "3",
+                        "srcset": "./assets/images/aics3.jfif",
+                        "alt": ""
+                    },
+                    {
+                        "id": "4",
+                        "srcset": "./assets/images/aics4.jfif",
                         "alt": ""
                     }
                 ]
@@ -153,17 +153,22 @@
                 "imgs":[
                     {
                         "id": "1",
-                        "srcset": "",
+                        "srcset": "./assets/images/bostheater1.jpg",
                         "alt": ""
                     },
                     {
-                        "id": "1",
-                        "srcset": "",
+                        "id": "2",
+                        "srcset": "./assets/images/bostheater2.jpg",
                         "alt": ""
                     },
                     {
-                        "id": "1",
-                        "srcset": "",
+                        "id": "3",
+                        "srcset": "./assets/images/bostheater3.jpg",
+                        "alt": ""
+                    },
+                    {
+                        "id": "4",
+                        "srcset": "./assets/images/Renovatie-Bostheater.png",
                         "alt": ""
                     }
                 ]
@@ -184,18 +189,13 @@
                 "imgs":[
                     {
                         "id": "1",
-                        "srcset": "",
-                        "alt": ""
+                        "srcset": "./assets/images/Nieuwbouw-Basisschool-De-Wereldburger1.jpg",
+                        "alt": "Omslagfoto: Kwartiermakers John Leerdam, Peggy Brandon, David Brandwagt. Fotograaf: Tom Feenstra"
                     },
                     {
-                        "id": "1",
-                        "srcset": "",
-                        "alt": ""
-                    },
-                    {
-                        "id": "1",
-                        "srcset": "",
-                        "alt": ""
+                        "id": "2",
+                        "srcset": "./assets/images/Renovatie-Amsterdam-Museum.jfif",
+                        "alt": "Impressiebeeld van de kleedkamers"
                     }
                 ]
             },
@@ -213,17 +213,12 @@
                 "imgs":[
                     {
                         "id": "1",
-                        "srcset": "",
+                        "srcset": "./assets/images/",
                         "alt": ""
                     },
                     {
                         "id": "1",
-                        "srcset": "",
-                        "alt": ""
-                    },
-                    {
-                        "id": "1",
-                        "srcset": "",
+                        "srcset": "./assets/images/",
                         "alt": ""
                     }
                 ]
@@ -241,17 +236,12 @@
                 "imgs":[
                     {
                         "id": "1",
-                        "srcset": "",
+                        "srcset": "./assets/images/Renovatie-Amsterdam-Museum.jpg",
                         "alt": ""
                     },
                     {
-                        "id": "1",
-                        "srcset": "",
-                        "alt": ""
-                    },
-                    {
-                        "id": "1",
-                        "srcset": "",
+                        "id": "2",
+                        "srcset": "./assets/images/Renovatie-Amsterdam-Museum1.jfif",
                         "alt": ""
                     }
                 ]
@@ -269,17 +259,17 @@
                 "imgs":[
                     {
                         "id": "1",
-                        "srcset": "",
+                        "srcset": "./assets/images/Sportpark-Goed-Genoeg&Clubgebouw-AFC1.jpg",
                         "alt": ""
                     },
                     {
-                        "id": "1",
-                        "srcset": "",
+                        "id": "2",
+                        "srcset": "./assets/images/Sportpark-Goed-Genoeg&Clubgebouw-AFC2.jpg",
                         "alt": ""
                     },
                     {
-                        "id": "1",
-                        "srcset": "",
+                        "id": "3",
+                        "srcset": "./assets/images/Sportpark-Goed-Genoeg&Clubgebouw-AFC3.jpg",
                         "alt": ""
                     }
                 ]
@@ -299,17 +289,17 @@
                 "imgs":[
                     {
                         "id": "1",
-                        "srcset": "",
+                        "srcset": "./assets/images/Haalbaarheidstudie-Nieuwe-Sporthallen-Zuid1.png",
                         "alt": ""
                     },
                     {
-                        "id": "1",
-                        "srcset": "",
+                        "id": "2",
+                        "srcset": "./assets/images/Haalbaarheidstudie-Nieuwe-Sporthallen-Zuid2.png",
                         "alt": ""
                     },
                     {
-                        "id": "1",
-                        "srcset": "",
+                        "id": "3",
+                        "srcset": "./assets/images/Haalbaarheidstudie-Nieuwe-Sporthallen-Zuid3.png",
                         "alt": ""
                     }
                 ]
