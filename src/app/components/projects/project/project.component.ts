@@ -15,21 +15,18 @@ export class ProjectComponent{
     projectInfo!:any;
 
     controllerButton = new CarouselController();
-    images: CarouselImage[] = [
-
-    ];
+    images: CarouselImage[] = [];
 
 
     constructor( private route: ActivatedRoute ){
         this.findProject();
-
     }
 
     findProject(){
         this.projects.forEach(project => {
-            if(project['title'] === this.route.snapshot.paramMap.get('title')){
+            if(project['title'] === this.route.snapshot.paramMap.get('title')){ // gets the title out of the url
                 this.projectInfo = project;
-                this.images = this.projectInfo['imgs'];
+                this.images = this.projectInfo['imgs']; // fills the images variables on line 18
             }
         });
     }

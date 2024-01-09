@@ -2,7 +2,7 @@
     <h1 class="title">{{ projects['title'] }}</h1>
     <ul class="project-list">
         <ng-container *ngFor="let project of projects['projects-content']; let odd = odd"  >
-            <li class="project-container" [class.odd-alignment]=" odd" [routerLink]="['project', project['title']]">
+            <li class="project-container" [class.odd-alignment]="odd === true" [routerLink]="['project', project['title']]">
                 <article class="project-card">
                     <figure class="img-container">
                         <img class="img" [src]="project['imgs'][0]['srcset']" [alt]="project">
