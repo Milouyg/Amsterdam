@@ -26,6 +26,8 @@
 
         .header-title{
             margin: 2rem 0rem;
+            color: red;
+            
             .title{
                 display: flex;
                 align-items: center;
@@ -36,6 +38,7 @@
         .article{
             display: flex;
             gap: 2rem;
+
             .text-container{
                 width: 100%;
                 height: 100%;
@@ -49,7 +52,7 @@
 
                 .header{
                     .subtitle{
-
+                        font-size: 2.5rem;
                     }
                 }
 
@@ -89,7 +92,7 @@
 
         .img-container{
             border-left: .2rem solid red;
-            
+
             .img{
                 border-top: .2rem solid red;
                 border-left: unset;
