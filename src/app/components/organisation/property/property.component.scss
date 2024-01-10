@@ -89,7 +89,8 @@
 }
 
 @media screen and (max-width: 81.25rem){ // 1300 px
-    .organisation {
+    .property {
+        flex-direction: column-reverse;
         .img-container {
             flex: 1.5 1 0;
         }

@@ -17,7 +17,7 @@
         "bulletpoint3": "Opdrachten en projecten",
         "img": {
             "src": "./../../assets/images/hero-img.jpg",
-            "alt": "hero-img"
+            "alt": "hero-img, op de afbeelding zie je een Amsterdamse straat met een brug, water en boten"
         }
     },
     "intro": {
@@ -35,7 +35,7 @@
             "paragraph-bottom": "Naast de maatschappelijke voorzieningen werkt BMV ook aan beheer en faciliteren van goede werkplekken - zoals kantoren, werven, garages en opslagruimtes - voor de mensen die de stad en het stadslandschap schoon en netjes houden. De stadsdeelkantoren en andere kantoren voor de gemeentelijke organisatie zijn ook onderdeel van ons werkveld.",
             "img": {
                 "src": "./../../assets/images/amsterdam.jpeg",
-                "alt": ""
+                "alt": "Je ziet een Amsterdamse brug met bloemen aan de voorkant, een rivier met boten en bomen."
             }
         },
         "work-method": {
@@ -57,7 +57,7 @@
             "paragraph-bottom": "Het team is binnen de gemeente Amsterdam hét adres voor vraagstukken op het snijvlak van het sociale en fysieke domein. BMV biedt een integraal en overzichtelijk pakket per project. En het verbindt de wensen van de opdrachtgever en de gebruiker aan de mogelijkheden in het gebied, de kosten en de planning.",
             "img": {
                 "src": "./../../assets/images/amsterdam1.jpg",
-                "alt": ""
+                "alt": "Je ziet een verlichte straat met een brug, huizen en lantaarnpalen"
             }
         },
         "bmv-teams": {
@@ -70,7 +70,7 @@
             "paragraph-bottom-p2":"voor meer informatie over recente projecten waar BMV aan bijdroeg of momenteel bij betrokken is",
             "img": {
                 "src": "./../../assets/images/amsterdam3.jpg",
-                "alt": ""
+                "alt": "Je ziet een afbeelding met aan de voorkant kleurrijke tulpen en aan de achterzijde huizen met bomen"
             }
         }
     },
@@ -94,12 +94,12 @@
                     {
                         "id": "1",
                         "srcset": "./assets/images/spino20first1.jpg",
-                        "alt": ""
+                        "alt": "Op de afbeelding zie je een luxe afdeling met verlichting en 2 bomen"
                     },
                     {
                         "id": "2",
                         "srcset": "./assets/images/spino20first2.jpg",
-                        "alt": ""
+                        "alt": "Op de afbeelding zie je een straat"
                     }
                 ]
             },
@@ -121,22 +121,22 @@
                     {
                         "id": "1",
                         "srcset": "./assets/images/aics1.jfif",
-                        "alt": ""
+                        "alt": "Op de afbeelding zie je een luxe afdeling met mensen en verlichting"
                     },
                     {
                         "id": "2",
                         "srcset": "./assets/images/aics2.jfif",
-                        "alt": ""
+                        "alt": "Op de afbeelding zie je een andere luxe afdeling met verschillende verdiepingen. Op de begaande grond zie je 4 mensen voor een receptie staan"
                     },
                     {
                         "id": "3",
                         "srcset": "./assets/images/aics3.jfif",
-                        "alt": ""
+                        "alt": "Op de afbeelding zie je een voorkant van een gebouw met mensen op een balkon staan"
                     },
                     {
                         "id": "4",
                         "srcset": "./assets/images/aics4.jfif",
-                        "alt": ""
+                        "alt": "Op de afbeelding zie je mensen om een klein voetbalveld staan"
                     }
                 ]
             },
@@ -154,22 +154,22 @@
                     {
                         "id": "1",
                         "srcset": "./assets/images/bostheater1.jpg",
-                        "alt": ""
+                        "alt": "Op de afbeelding zie je een tekening van 2 mensen dichtbij een gebouw staan. Dit is omringd met bomen"
                     },
                     {
                         "id": "2",
                         "srcset": "./assets/images/bostheater2.jpg",
-                        "alt": ""
+                        "alt": "Op de afbeelding zie je tekening van een gebouw staan waarbij half van het gebouw bedekt is door een heg"
                     },
                     {
                         "id": "3",
                         "srcset": "./assets/images/bostheater3.jpg",
-                        "alt": ""
+                        "alt": "Op de afbeelding zie je een tekening van een overkapping staan en daarbuiten een tribune. Achter de overkapping en tribune zie je bomen"
                     },
                     {
                         "id": "4",
                         "srcset": "./assets/images/Renovatie-Bostheater.png",
-                        "alt": ""
+                        "alt": "Op de afbeelding zie je een tekening van een trap. 3 mensen lopen op de trap en een ander persoon zit op de trap"
                     }
                 ]
             },
@@ -190,12 +190,12 @@
                     {
                         "id": "1",
                         "srcset": "./assets/images/Nieuwbouw-Basisschool-De-Wereldburger1.jpg",
-                        "alt": "Omslagfoto: Kwartiermakers John Leerdam, Peggy Brandon, David Brandwagt. Fotograaf: Tom Feenstra"
+                        "alt": "Op de afbeelding zie je een kamer waar mensen op een trap zitten"
                     },
                     {
                         "id": "2",
                         "srcset": "./assets/images/Renovatie-Amsterdam-Museum.jfif",
-                        "alt": "Impressiebeeld van de kleedkamers"
+                        "alt": "Op de afbeelding zie je een bovenaanzicht van Amsterdam"
                     }
                 ]
             },
@@ -214,12 +214,12 @@
                     {
                         "id": "1",
                         "srcset": "./assets/images/Slavernijmuseum.jpeg",
-                        "alt": ""
+                        "alt": "Op de afbeelding zie je 3 mensen glimlachen"
                     },
                     {
                         "id": "2",
                         "srcset": "./assets/images/Slavernijmuseum2.jpeg",
-                        "alt": ""
+                        "alt": "Op de afbeelding zie je allemaal mensen zitten waarbij 2 mensen staan. 1 persoon houdt de microfoon vast voor de andere persoon die praat"
                     }
                 ]
             },
@@ -237,12 +237,7 @@
                     {
                         "id": "1",
                         "srcset": "./assets/images/Renovatie-Amsterdam-Museum.jpg",
-                        "alt": ""
-                    },
-                    {
-                        "id": "2",
-                        "srcset": "./assets/images/Renovatie-Amsterdam-Museum1.jfif",
-                        "alt": ""
+                        "alt": "Op de afbeelding zie je een huis van de zijaanzicht waarbij je de verschillende kamers en verdiepingen kan zien waar mensen zich bevinden"
                     }
                 ]
             },
@@ -260,17 +255,17 @@
                     {
                         "id": "1",
                         "srcset": "./assets/images/Sportpark-Goed-Genoeg&Clubgebouw-AFC1.jpg",
-                        "alt": ""
+                        "alt": "Op de afbeelding ziet je een tribune met stoelen en daar naast een gebouw en een voetbalveld waar spelers spelen"
                     },
                     {
                         "id": "2",
                         "srcset": "./assets/images/Sportpark-Goed-Genoeg&Clubgebouw-AFC2.jpg",
-                        "alt": ""
+                        "alt": "Op de afbeelding zie je een voetbalveld met een tribune"
                     },
                     {
                         "id": "3",
                         "srcset": "./assets/images/Sportpark-Goed-Genoeg&Clubgebouw-AFC3.jpg",
-                        "alt": ""
+                        "alt": "Op de afbeelding zie je iemand op een grasmaaier en achter hun bevindt zich hijskranen en gebouwen"
                     }
                 ]
             },
@@ -290,17 +285,17 @@
                     {
                         "id": "1",
                         "srcset": "./assets/images/Haalbaarheidstudie-Nieuwe-Sporthallen-Zuid1.png",
-                        "alt": ""
+                        "alt": "Op de afbeelding zie je een 3D tekening van een omgeving met gebouwen, een weg en bomen"
                     },
                     {
                         "id": "2",
                         "srcset": "./assets/images/Haalbaarheidstudie-Nieuwe-Sporthallen-Zuid2.png",
-                        "alt": ""
+                        "alt": "Op de afbeelding zie je links een gebouw staan met bomen en rechts een dwarsdoorsnede en een langsdoorsnede van het gebouw"
                     },
                     {
                         "id": "3",
                         "srcset": "./assets/images/Haalbaarheidstudie-Nieuwe-Sporthallen-Zuid3.png",
-                        "alt": ""
+                        "alt": "Op de afbeelding zie je van de 3D tekening een bovenaanzicht van een gebied met gebouwen en een vierkant waarin staat nieuwe sporthallen"
                     }
                 ]
             }
@@ -314,7 +309,7 @@
             "paragraph-bottom": "Het team zoekt mensen met ervaring en een opleiding in het wetenschappelijk of hoger beroepsonderwijs, bijvoorbeeld op het gebied van bouwkunde, architectuur en vastgoedmanagement.",
             "img": {
                 "src": "./../../assets/images/workAt.png",
-                "alt": ""
+                "alt": "Op de afbeelding zie je aan de linkerzijde een straat met mensen en aan de rechterzijde een brug met water"
             }
         },
         "middle-content":{
@@ -322,7 +317,7 @@
             "paragraph-bottom": "En in alle gevallen zijn een brede blik, flexibiliteit, goede omgevingsgevoeligheid en affiniteit met maatschappelijk vastgoed en het sociaal domein vereisten voor het werken bij BMV.",
             "img": {
                 "src": "./../../assets/images/workAt3.webp",
-                "alt": ""
+                "alt": "Op de afbeelding zie je een bord met 'I am Amsterdam' voor het centraal station"
             }
         },
         "bottom-content":{
@@ -331,7 +326,7 @@
             "paragraph-bottom": "Kijk voor openstaande vacatures op https://werkenbij.amsterdam.nl.",
             "img": {
                 "src": "./../../assets/images/workAt2.png",
-                "alt": ""
+                "alt": "Op de afbeelding zie je mensen, bomen en water"
             }
         }
     },
