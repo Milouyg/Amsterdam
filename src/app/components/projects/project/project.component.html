@@ -5,7 +5,7 @@
         </header>
         <h2 class="subtitle"> {{ projectInfo['sub-title'] }} </h2>
         <ng-container *ngFor="let paragraph of projectInfo['paragraphs']">
-            <p> {{ paragraph }}</p>
+            <p class="paragraph"> {{ paragraph }}</p>
         </ng-container>
         <a [href]="projectInfo['link']" target="_blank"> {{ projectInfo['link'] }} </a>
         <p class="photographer"> {{ projectInfo['photographer'] }} </p>

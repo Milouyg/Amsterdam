@@ -7,7 +7,7 @@
     align-items: center;
     position: relative;
     padding-bottom: 4rem;
-    color: red;
+    color: variables.$red;
 
     .title-container {
         display: flex;
@@ -18,19 +18,21 @@
 
         .title {
             text-align: center;
-            font-size: 3rem;
+            font-size: variables.$StandardText;
         }
     }
 
     .subtitle {
         width: 80%;
         text-align: center;
-        font-size: 2.1rem;
+        font-size: variables.$StandardSubTitle;
+        padding-bottom: 1rem;
     }
 
     .paragraph {
         width: 80%;
         text-align: center;
+        font-size: variables.$StandardParagraph;
 
         &.first {
             margin-bottom: 3rem;
@@ -41,19 +43,25 @@
 @media screen and (max-width: 81.25rem){ // 1300 px
     .intro{
         margin-bottom: 5rem;
+    }
+}
+
+@media screen and (max-width: 40.625rem){ // 650 px
+    .intro{
+        margin-bottom: 5rem;
         
         .title-container{
             .title{
-
+                font-size: variables.$m650Title;
             }
         }
 
         .subtitle{
-            font-size: variables.$m1300subtitle;
+            font-size: variables.$m650Subtitle;
         }
 
         .paragraph{
-            font-size: variables.$m1300paragraph;
+            font-size: variables.$m650Paragraph;
         }
     }
 }

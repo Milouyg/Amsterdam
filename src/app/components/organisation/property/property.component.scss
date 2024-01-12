@@ -4,21 +4,21 @@
     width: 100%;
     display: flex;
     flex-direction: row;
-    border-left:  .2rem solid red;
+    border-left:  variables.$borderRed;
 
     .img-container {
         display: flex;
         flex-direction: column;
         flex: 1 1 0;
         height: 50rem;
-        border-right: .2rem solid red;
+        border-right: variables.$borderRed;
 
         .img {
             width: 100%;
             height: 100%;
             object-fit: cover;
-            border-top: .2rem solid red;
-            border-bottom: .2rem solid red;
+            border-top: variables.$borderRed;
+            border-bottom: variables.$borderRed;
         }
     }
 
@@ -30,8 +30,8 @@
 
         .title-container {
             width: 100%;
-            border-top: .2rem solid red;
-            border-right: .2rem solid red;
+            border-top: variables.$borderRed;
+            border-right: variables.$borderRed;
 
             .title {
                 width: 100%;
@@ -39,7 +39,8 @@
                 align-items: center;
                 justify-content: center;
                 margin-bottom: 2rem;
-                color: red;
+                color: variables.$red;
+                font-size: variables.$StandardText;
             }
         }
         .text-container {
@@ -54,16 +55,18 @@
                 padding-left: 2rem;
 
                 .subtitle{
-                    font-size: 2.5rem;
+                    font-size: variables.$StandardSubTitle;
+                    text-align: left;
                 }
 
                 .paragraph-container{
                     display: flex;
                     flex-direction: column;
                     gap: 2rem;
+                    text-align: left;
 
                     .paragraph{
-
+                        font-size: variables.$StandardParagraph;
                         &:nth-child(3){
                             padding-bottom: 2rem;
                         }
@@ -73,7 +76,7 @@
 
             .line {
                 flex-shrink: 0;
-                background: red;
+                background: variables.$red;
                 width: 3rem;
                 display: flex;
                 flex-direction: column;
@@ -101,11 +104,9 @@
             .text-container {
                 .text {
                     .subtitle{
-                        font-size: variables.$m1300subtitle;
                     }
 
                     .paragraph-container{
-                        font-size: variables.$m1300paragraph;
                     }
                 }
             }
@@ -125,4 +126,28 @@
     }
 }
 
+@media screen and (max-width: 40.625rem){ // 650px
+    .property {
+        .content-container {
+            .title-container {
+                .title{
+                    font-size: variables.$m650Title;
+                }
+            }
+            .text-container {
+                .text {
+                    .subtitle{
+                        font-size: variables.$m650Subtitle;
+                    }
+
+                    .paragraph-container{
+                        .paragraph{
+                            font-size: variables.$m650Paragraph;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
 

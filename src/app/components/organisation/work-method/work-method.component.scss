@@ -3,7 +3,7 @@
 .work-method{
     width: 100%;
     display: flex;
-    border-right: .2rem solid red;
+    border-right: variables.$borderRed;
 
     .img-container{
         flex: 1 1 0;
@@ -12,9 +12,9 @@
         .img{
             width: 100%;
             object-fit: cover;
-            border-top: .2rem solid red;
-            border-left: .2rem solid red;
-            border-bottom: .2rem solid red;
+            border-top: variables.$borderRed;
+            border-left: variables.$borderRed;
+            border-bottom: variables.$borderRed;
         }
     }
 
@@ -22,16 +22,17 @@
         flex: 2 1 0;
         display: flex;
         flex-direction: column;
-        border-left: .2rem solid red;
+        border-left: variables.$borderRed;
 
         .header-title{
             margin: 2rem 0rem;
-            color: red;
+            color: variables.$red;
             
             .title{
                 display: flex;
                 align-items: center;
                 justify-content: center;
+                font-size: variables.$StandardText;
             }
         }
 
@@ -52,12 +53,12 @@
 
                 .header{
                     .subtitle{
-                        font-size: 2.5rem;
+                        font-size: variables.$StandardSubTitle;
                     }
                 }
 
                 .paragraph{
-
+                    font-size: variables.$StandardParagraph;
                 }
 
                 .bullet-list{
@@ -71,7 +72,7 @@
 
             .line {
                 flex-shrink: 0;
-                background: red;
+                background: variables.$red;
                 width: 3rem;
                 display: flex;
                 flex-direction: column;
@@ -91,13 +92,38 @@
         flex-direction: column;
 
         .img-container{
-            border-left: .2rem solid red;
+            border-left: variables.$borderRed;
 
             .img{
-                border-top: .2rem solid red;
+                border-top: variables.$borderRed;
                 border-left: unset;
-                border-bottom: .2rem solid red;
+                border-bottom: variables.$borderRed;
             }
         }
     }
+}
+
+@media screen and (max-width: 40.625rem) { // 650rem
+    .work-method{
+        .content-container{
+            .header-title{
+                .title{
+                    font-size: variables.$m650Title;
+                }
+            }
+            .article{
+                .text-container{
+                    .header{
+                        .subtitle{
+                            font-size: variables.$m650Subtitle;
+                        }
+                    }
+                    .paragraph{
+                        font-size: variables.$m650Paragraph;
+                    }
+                }
+            }
+        }
+    }
+
 }

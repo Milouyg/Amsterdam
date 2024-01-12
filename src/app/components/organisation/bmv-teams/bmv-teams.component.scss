@@ -15,7 +15,7 @@
             width: 100%;
             height: 100%;
             object-fit: cover;
-            border: .2rem solid red;
+            border: variables.$borderRed;
         }
     }
 
@@ -28,7 +28,7 @@
         .title-container{
             padding-top: 2rem;
             width: 100%;
-            border-right: .2rem solid red;
+            border-right: variables.$borderRed;
 
             .title{
                 width: 100%;
@@ -36,7 +36,8 @@
                 align-items: center;
                 justify-content: center;
                 margin-bottom: 2rem;
-                color: red;
+                color: variables.$red;
+                font-size: variables.$StandardText;
             }
         }
 
@@ -44,7 +45,7 @@
             display: flex;
             justify-content: flex-end;
             gap: variables.$gapBetweenLine;
-            border-bottom: .2rem solid red;
+            border-bottom: variables.$borderRed;
 
             .text {
                 text-align: right;
@@ -53,20 +54,22 @@
                 padding-left: 2rem;
 
                 .subtitle{
-                    font-size: 2.5rem;
+                    font-size: variables.$StandardSubTitle;
+                    text-align: left;
                 }
 
                 .paragraph-container{
                     display: flex;
                     flex-direction: column;
                     gap: 2rem;
+                    text-align: left;
 
                     .paragraph-group{
                         width: 100%;
                         padding-bottom: 2rem;
 
                         .paragraph{
-
+                            font-size: variables.$StandardParagraph;
                             &.bottom{
                                 display: inline;
                             }
@@ -117,4 +120,33 @@
     }
 }
 
+@media screen and (max-width: 40.625rem){ // 650px
+    .bmv-teams{
+        .content-container{
+            .title-container{
+                .title{
+                    font-size: variables.$m650Title;
+                }
+            }
+            .text-container{
+                .article{
+                    .subtitle{
+                        font-size: variables.$m650Subtitle;
+                    }
+                    .paragraph-container{
+                        .paragraph{
+                            font-size: variables.$m650Paragraph;
+                            .paragraph-group{
+
+                                .link{
+                                    font-size: variables.$m650Paragraph;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
 
