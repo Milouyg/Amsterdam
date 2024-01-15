@@ -46,6 +46,7 @@
             justify-content: flex-end;
             gap: variables.$gapBetweenLine;
             border-bottom: variables.$borderRed;
+            padding-left: 2rem;
 
             .text {
                 text-align: right;

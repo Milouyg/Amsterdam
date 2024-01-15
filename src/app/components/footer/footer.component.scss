@@ -1,3 +1,5 @@
+@use "../../../variables.scss";
+
 .contact {
     display: flex;
     flex-direction: row;
@@ -18,8 +20,13 @@
             color: white;
         }
 
+        .subtitle{
+            font-size: variables.$StandardSubTitle;
+        }
+
         .text {
             width: 50%;
+            font-size: variables.$StandardParagraph;
         }
     }
 }
@@ -28,5 +35,19 @@
     .contact{
         flex-direction: column;
         gap: 2rem;
+    }
+}
+
+@media screen and (max-width: 40.625rem){ // 650 px
+    .contact{
+        .column{
+            .subtitle{
+                font-size: variables.$m650Subtitle;
+            }
+
+            .text{
+                font-size: variables.$m650Paragraph;
+            }
+        }
     }
 }

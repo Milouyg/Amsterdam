@@ -66,8 +66,11 @@
             "paragraph-top": "Bij BMV werken rond de 60 bouwmanagers en project- en procesmanagers maatschappelijk vastgoed, met als thuisbasis een kantoor in het hart van Amsterdam. Waar nodig schakelt BMV externe experts in, voor specifieke aspecten van een project. BMV stuurt projecten aan vanuit zelfstandig werkende teams met korte lijnen en veel dynamiek.",
             "paragraph-middle": "In de teams hebben de betreffende medewerkers voldoende tijd om van elkaar te leren, innovatieve ideeën te ontwikkelen of zelfs met een compleet nieuwe aanpak te komen. Immers, een stad als Amsterdam staat – net als het leven zelf – nooit stil.",
             "paragraph-bottom-p1": "Kijk op de pagina",
-            "link": "Projecten",
             "paragraph-bottom-p2": "voor meer informatie over recente projecten waar BMV aan bijdroeg of momenteel bij betrokken is",
+            "link":{
+                "name":"Projecten",
+                "href": "#projects"
+            },
             "img": {
                 "src": "./../../assets/images/amsterdam3.webp",
                 "alt": "Je ziet een afbeelding met aan de voorkant kleurrijke tulpen en aan de achterzijde huizen met bomen"
