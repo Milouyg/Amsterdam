@@ -1,3 +1,6 @@
+@use "../../../scss/variables.scss";
+@use "../../../scss/mixins.scss";
+
 .header {
     display: flex;
     justify-content: space-between;
@@ -43,6 +46,7 @@
         position: relative;
 
         .navigation {
+            display: flex;
             width: 100%;
             position: absolute;
             top: 100%;

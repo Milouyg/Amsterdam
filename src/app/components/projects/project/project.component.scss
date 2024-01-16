@@ -1,4 +1,6 @@
-@use "../../../../variables.scss";
+@use "../../../../scss/variables.scss";
+@use "../../../../scss/mixins.scss";
+
 
 .project {
     display: flex;

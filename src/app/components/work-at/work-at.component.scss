@@ -1,15 +1,16 @@
-@use "../../../variables.scss";
+@use "../../../scss/variables.scss";
+@use "../../../scss/mixins.scss";
 
 .work-at{
     width: 100%;
     display: flex;
     flex-direction: column;
     padding: 2rem 0rem;
-    background: red;
+    background: variables.$red;
 
     .title{
         text-align: center;
-        color: white;
+        color: variables.$white;
     }
 
     .top-content, .middle-content, .bottom-content{
@@ -18,12 +19,10 @@
         flex-direction: row;
 
         .img-container{
-            display: flex;
-            justify-content: center;
-            align-items: center;
+            @include mixins.flexCenter;
             flex: 1 1 0;
             height: 32rem;
-            background: red;
+            background: variables.$red;
 
             .img{
                 width: 80%;
@@ -33,22 +32,20 @@
         }
 
         .text-container{
-            display: flex;
-            align-items: center;
-            justify-content: center;
+            @include mixins.flexCenter;
             flex-direction: column;
             flex: 1 1 0;
             padding: 1rem 0rem;
 
             .subtitle{
-                font-size: 2.5rem;
-                color: white;
+                font-size: variables.$StandardSubTitle;
+                color: variables.$white;
             }
 
             .paragraph{
                 width: 80%;
                 margin-bottom: 1rem;
-                color: white;
+                color: variables.$white;
             }
         }
     }

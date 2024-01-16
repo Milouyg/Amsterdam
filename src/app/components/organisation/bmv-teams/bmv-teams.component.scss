@@ -1,4 +1,5 @@
-@use "../../../../variables.scss";
+@use "../../../../scss/variables.scss";
+@use "../../../../scss/mixins.scss";
 
 .bmv-teams{
     width: 100%;
@@ -32,9 +33,7 @@
 
             .title{
                 width: 100%;
-                display: flex;
-                align-items: center;
-                justify-content: center;
+                @include mixins.flexCenter;
                 margin-bottom: 2rem;
                 color: variables.$red;
                 font-size: variables.$StandardText;
@@ -48,7 +47,7 @@
             border-bottom: variables.$borderRed;
             padding-left: 2rem;
 
-            .text {
+            .article {
                 text-align: right;
                 display: flex;
                 flex-direction: column;
@@ -71,6 +70,7 @@
 
                         .paragraph{
                             font-size: variables.$StandardParagraph;
+
                             &.bottom{
                                 display: inline;
                             }
@@ -78,6 +78,7 @@
 
                         .link{
                             display: inline;
+                            color: red;
                         }
                     }
                 }
@@ -85,15 +86,13 @@
 
             .line {
                 flex-shrink: 0;
-                background: red;
+                background: variables.$red;
                 width: 3rem;
-                display: flex;
-                flex-direction: column;
-                align-items: center;
+                @include mixins.flexColumn;
                 padding-top: 1.5rem;
 
                 .x-icon{
-                    color: white;
+                    color: variables.$white;
                 }
             }
 
@@ -113,7 +112,7 @@
         }
 
         .content-container{
-            border-left: .2rem solid red;
+            border-left: variables.$borderRed;
             .text-container{
                 border-bottom: unset;
             }

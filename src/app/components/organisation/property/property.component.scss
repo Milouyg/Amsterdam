@@ -1,4 +1,5 @@
-@use "../../../../variables.scss";
+@use "../../../../scss/variables.scss";
+@use "../../../../scss/mixins.scss";
 
 .property {
     width: 100%;
@@ -35,9 +36,7 @@
 
             .title {
                 width: 100%;
-                display: flex;
-                align-items: center;
-                justify-content: center;
+                @include mixins.flexCenter;
                 margin-bottom: 2rem;
                 color: variables.$red;
                 font-size: variables.$StandardText;
@@ -78,13 +77,11 @@
                 flex-shrink: 0;
                 background: variables.$red;
                 width: 3rem;
-                display: flex;
-                flex-direction: column;
-                align-items: center;
+                @include mixins.flexColumn;
                 padding-top: 1.5rem;
 
                 .x-icon{
-                    color: white;
+                    color: variables.$white;
                 }
             }
         }
