@@ -7,13 +7,18 @@
         <ng-container *ngFor="let paragraph of projectInfo['paragraphs']">
             <p class="paragraph"> {{ paragraph }}</p>
         </ng-container>
-        <a [href]="projectInfo['link']" target="_blank"> {{ projectInfo['link'] }} </a>
+        <a class="link" [href]="projectInfo['link']" target="_blank"> {{ projectInfo['link'] }} </a>
         <p class="photographer"> {{ projectInfo['photographer'] }} </p>
     </div>
     <div class="carousel-container">
-        <ng-simple-carousel-with-button [images]="images" [controller]="controllerButton">
-        </ng-simple-carousel-with-button>
+        <ng-container *ngIf="images.length < 2">
+            <ng-simple-carousel [images]="images" [controller]="controllerButton">
+            </ng-simple-carousel>
+        </ng-container>
+        <ng-container *ngIf="images.length > 1">
+            <ng-simple-carousel-with-button [images]="images" [controller]="controllerButton">
+            </ng-simple-carousel-with-button>
+        </ng-container>
     </div>
-
 </section>
 

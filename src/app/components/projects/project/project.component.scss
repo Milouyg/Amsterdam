@@ -16,15 +16,14 @@
         .header{
             margin-bottom: 3rem;
             color: variables.$red;
-            font-size: 3rem;
 
             .title{
-                font-size: 3rem;
+                font-size: variables.$StandardText;
             }
         }
 
         .subtitle {
-            font-size: 2rem;
+            font-size: variables.$StandardSubTitle;
         }
 
         :not(:first-child) {
@@ -32,7 +31,11 @@
         }
 
         .paragraph{
-            font-size: 1.8rem;
+            font-size: variables.$StandardParagraph;
+        }
+
+        .link{
+            color: variables.$red;
         }
     }
 
@@ -51,20 +54,6 @@
     }
 }
 
-@media screen and (max-width: 81.25rem){ // 1300 px
-    .project{
-        .content-container {
-            .subtitle{
-                font-size: variables.$StandardText;
-            }
-
-            .paragraph{
-                font-size: variables.$StandardSubTitle;
-            }
-        }
-    }
-}
-
 @media screen and (max-width: 62.5rem){ // 1000px
     .project {
         flex-direction: column;
@@ -76,3 +65,18 @@
         }
     }
 }
+
+@media screen and (max-width: 40.625rem){ // 650 px
+    .project{
+        .content-container {
+            .subtitle{
+                font-size: variables.$m650Subtitle;
+            }
+
+            .paragraph{
+                font-size: variables.$m650Paragraph;
+            }
+        }
+    }
+}
+
