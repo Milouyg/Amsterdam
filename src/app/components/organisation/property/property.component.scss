@@ -37,7 +37,7 @@
             .title {
                 width: 100%;
                 @include mixins.flexCenter;
-                margin-bottom: 2rem;
+                margin: 2rem;
                 color: variables.$red;
                 font-size: variables.$StandardText;
             }

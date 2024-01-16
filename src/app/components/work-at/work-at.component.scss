@@ -35,7 +35,6 @@
             @include mixins.flexCenter;
             flex-direction: column;
             flex: 1 1 0;
-            padding: 1rem 0rem;
 
             .subtitle{
                 font-size: variables.$StandardSubTitle;
@@ -46,6 +45,7 @@
                 width: 80%;
                 margin-bottom: 1rem;
                 color: variables.$white;
+                font-size: variables.$StandardParagraph;
             }
         }
     }
