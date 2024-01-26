@@ -28,8 +28,8 @@
         display: flex;
         flex-direction: column;
         position: absolute;
-        left: 8%;
-        top: 30%;
+        left: 4%;
+        top: 65%;
         justify-content: center;
         gap: 1rem;
         font-weight: 600;
@@ -41,7 +41,7 @@
             list-style-position: inside;
             padding: 0 3rem;
             opacity: 0.8;
-            font-size: variables.$StandardText;
+            font-size: variables.$red;
         }
     }
 }

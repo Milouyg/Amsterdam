@@ -5,7 +5,7 @@
             <li class="project-container" [class.odd-alignment]="odd === true" [routerLink]="['project', project['title']]">
                 <article class="project-card">
                     <figure class="img-container">
-                        <img class="img" [src]="project['imgs'][0]['srcset']" [alt]="project">
+                        <img class="img" [src]="project['imgs'][0]['srcset']" [alt]="project" loading="lazy">
                     </figure>
                     <div class="text-container">
                         <h2 class="subtitle">{{ project['title'] }}</h2>

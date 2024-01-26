@@ -13,12 +13,12 @@
                 </p>
             </div>
             <figure class="img-container">
-                <img class="img" [src]="workAt['top-content']['img']['src']" [alt]="workAt['top-content']['img']['alt']">
+                <img class="img" [src]="workAt['top-content']['img']['src']" [alt]="workAt['top-content']['img']['alt']" loading="lazy">
             </figure>
         </div>
     <div class="middle-content">
         <figure class="img-container">
-            <img class="img" [src]="workAt['middle-content']['img']['src']" [alt]="workAt['top-content']['img']['alt']">
+            <img class="img" [src]="workAt['middle-content']['img']['src']" [alt]="workAt['top-content']['img']['alt']" loading="lazy">
         </figure>
         <div class="text-container">
             <p class="paragraph"> {{ workAt['middle-content']['paragraph-top'] }} </p>
@@ -38,7 +38,7 @@
             </p>
         </div>
         <figure class="img-container">
-            <img class="img" [src]="workAt['bottom-content']['img']['src']" [alt]="workAt['top-content']['img']['alt']">
+            <img class="img" [src]="workAt['bottom-content']['img']['src']" [alt]="workAt['top-content']['img']['alt']" loading="lazy">
         </figure>
     </div>
 </section>
