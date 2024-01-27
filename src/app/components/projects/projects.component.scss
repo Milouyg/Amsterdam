@@ -111,10 +111,9 @@
 
         .project-list{
             justify-content: space-evenly;
-            gap: 2rem;
+
 
             .project-container{
-                height: variables.$gapBetweenLine;
 
                 &.odd-alignment{
                     align-items: unset;

@@ -24,7 +24,7 @@
                 color: black;
 
                 &:hover{
-                    color: red;
+                    color: variables.$red;
                 }
             }
         }
@@ -32,10 +32,13 @@
 
     .icon-bar {
         display: none;
+        color: variables.$red;
+
     }
 
     .icon-x {
         display: none;
+        color: variables.$red;
     }
 }
 
@@ -57,6 +60,8 @@
 
             &.hidden {
                 display: none;
+                background: variables.$white;
+                z-index: 5;
             }
         }
 
